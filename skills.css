@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.head{
+    color: white;
+    text-align: center;
+    background: #f9004d;
+    margin-top: 20px;
+}
+.skills-section{
+    color: white;
+    font-size: 24px;
+}
+span{
+    color: #f9004d;
+    font-weight: bolder;
+}
+
+@media (max-width: 420px) and (orientation: portrait), (max-height: 640px){
+    body {
+        margin: 6%;
+        font-size: 16px;
+    }
+    .skills-section{
+        color: white;
+        font-size: 14px;
+    }
+}
